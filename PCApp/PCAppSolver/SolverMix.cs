@@ -28,6 +28,10 @@ namespace PCAppSolver
             }
         }
         
+        /// <summary>
+        /// Mass of the second solution
+        /// </summary>
+        /// <exception cref="Exception"></exception>
         public double MassSolB
         {
             get => _massSolB;
@@ -39,6 +43,10 @@ namespace PCAppSolver
             }
         }
 
+        /// <summary>
+        /// Concentration of the first solution
+        /// </summary>
+        /// <exception cref="Exception"></exception>
         public double ConcentrationA
         {
             get => _concentrationA;
@@ -53,6 +61,10 @@ namespace PCAppSolver
             }
         }
         
+        /// <summary>
+        /// Concentration of the second solution
+        /// </summary>
+        /// <exception cref="Exception"></exception>
         public double ConcentrationB
         {
             get => _concentrationB;

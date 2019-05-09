@@ -36,7 +36,7 @@ namespace PCAppSolver
         {
             var massSol = MassSubstance + MassWater;
 
-            return MassSubstance / massSol;
+            return MassSubstance * 100 / massSol;
         }
     }
 }

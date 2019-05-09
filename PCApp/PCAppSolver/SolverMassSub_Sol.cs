@@ -38,7 +38,7 @@ namespace PCAppSolver
 
         public double Execute()
         {
-            return MassSubstance / MassSol;
+            return MassSubstance * 100 / MassSol;
         }
     }
 }

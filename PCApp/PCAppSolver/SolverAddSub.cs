@@ -62,7 +62,7 @@ namespace PCAppSolver
             var massWater = (100 - Concentration) * MassSol / 100;
             var massNewSol = MassSol + MassExtraSub;
 
-            return (100 - massWater / massNewSol) / 100;
+            return 100 - massWater * 100 / massNewSol;
         }
     }
 }
