@@ -2,6 +2,10 @@ using System;
 
 namespace PCAppSolver
 {
+    /// <summary>
+    /// Finds the percentage concentration of diluted solute from a mass of the solute (before adding extra water)
+    /// and its concentration
+    /// </summary>
     public class SolverDilution:ISolver
     {
         private double _massSol;
